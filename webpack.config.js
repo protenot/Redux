@@ -1,5 +1,5 @@
 const path = require("path");
-//const HtmlWebpackPlugin = require("html-webpack-plugin");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   mode: "development",
@@ -20,11 +20,11 @@ module.exports = {
       /* {
         test: /\.css$/,
         use: ["style-loader", "css-loader"],
-      },
+      },*/
       {
         test: /\.html$/,
         use: "html-loader",
-      }, */
+      },
       {
         test: /\.(?:js|mjs|cjs|ts)$/,
         exclude: /node_modules/,
@@ -42,12 +42,12 @@ module.exports = {
     ],
   },
 
-  /*  plugins: [
+  plugins: [
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, "./src/index.html"),
       filename: "index.html",
     }),
-  ], */
+  ],
 
   devServer: {
     compress: false,
