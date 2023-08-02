@@ -24,7 +24,7 @@ const config = {
   // collectCoverageFrom: undefined,
 
   // The directory where Jest should output its coverage files
-  coverageDirectory: "coverage",
+  coverageDirectory: 'coverage',
 
   // An array of regexp pattern strings used to skip coverage collection
   // coveragePathIgnorePatterns: [
@@ -32,7 +32,7 @@ const config = {
   // ],
 
   // Indicates which provider should be used to instrument code for coverage
-  coverageProvider: "v8",
+  coverageProvider: 'v8',
 
   // A list of reporter names that Jest uses when writing coverage reports
   // coverageReporters: [
@@ -125,9 +125,9 @@ const config = {
   // rootDir: undefined,
 
   // A list of paths to directories that Jest should use to search for files in
-   roots: [
-     "<rootDir>/src"
-   ],
+  roots: [
+    '<rootDir>/src'
+  ],
 
   // Allows you to use a custom runner instead of Jest's default test runner
   // runner: "jest-runner",
@@ -145,7 +145,7 @@ const config = {
   // snapshotSerializers: [],
 
   // The test environment that will be used for testing
-  testEnvironment: "jsdom",
+  testEnvironment: 'jsdom'
 
   // Options that will be passed to the testEnvironment
   // testEnvironmentOptions: {},
@@ -193,6 +193,6 @@ const config = {
 
   // Whether to use watchman for file crawling
   // watchman: true,
-};
+}
 
-module.exports = config;
+module.exports = config
